@@ -1,0 +1,37 @@
+import numpy as np
+import matplotlib.pyplot as plt
+%matplotlib inline
+A = np.array([2,3])
+B = np.array([3,6,-1,4])
+np.linalg.norm(A)
+3.605551275463989
+np.linalg.norm(B)
+7.874007874011811
+C = np.array([4,5])
+D = np.array([3,5,-1,6])
+np.linalg.norm(C)
+6.4031242374328485
+np.linalg.norm(D)
+8.426149773176359
+E = np.array([6,5])
+D = np.array([7,6,4,3])
+np.linalg.norm(E)
+7.810249675906654
+np.linalg.norm(D)
+10.488088481701515
+A = np.array([2,4,6])
+B = np.array([5,4,3])
+np.inner(A,B)
+44
+C = np.array([6,5,3])
+D = np.array([-1,-2,-4])
+np.inner(C,D)
+-28
+X = np.array([7,5,3])
+Y = np.array([6,5,3])
+np.inner(X,Y)
+76
+ 
+ 
+ 
+ 
